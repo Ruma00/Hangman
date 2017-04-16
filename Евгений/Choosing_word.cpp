@@ -18,16 +18,46 @@ int main()
 	{
 		case 1:
 			File.open( "1.txt" );
+			while ( i != Number )
+			{
+				getline ( File, Word );
+				i++;
+			}
 		case 2:
 			File.open( "2.txt" );
+			while ( i != Number )
+			{
+				getline ( File, Word );
+				i++;
+			}
 		case 3:
 			File.open( "3.txt" );
+			while ( i != Number )
+			{
+				getline ( File, Word );
+				i++;
+			}
 		case 4:
 			File.open( "4.txt" );
+			while ( i != Number )
+			{
+				getline ( File, Word );
+				i++;
+			}
 		case 5:
 			File.open( "5.txt" );
+			while ( i != Number )
+			{
+				getline ( File, Word );
+				i++;
+			}
 		case 6:
 			File.open( "6.txt" );
+			while ( i != Number )
+			{
+				getline ( File, Word );
+				i++;
+			}
 	}
 	
 	return 0;	
