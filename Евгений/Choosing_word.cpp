@@ -1,20 +1,17 @@
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
-#include<ctime>
+#include <ctime>
 using namespace std;
 
-int main()
+string ChoosingWord ( int Theme )
 {
 	srand( time( 0 ) );
-	int NumberOfTheme;
 	string Word;
-	cin>>NumberOfTheme;
 	ifstream File;
 	int i = 0, Number;
 	Number = rand() % 10 + 1;
-		
-	switch( NumberOfTheme )
+	switch( Theme )
 	{
 		case 1:
 			File.open( "1.txt" );
@@ -65,6 +62,14 @@ int main()
 			}
 			File.close(); break;
 	}
-	
-	return 0;	
+	return Word;	
+}
+int main()
+{
+	int NumberOfTheme;
+	string Word;
+	cin>>NumberOfTheme;
+	Word = ChoosingWord( NumberOfTheme );
+	cout<<Word;
+	return 0;
 }
