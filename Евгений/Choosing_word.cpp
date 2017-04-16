@@ -23,6 +23,7 @@ int main()
 				getline ( File, Word );
 				i++;
 			}
+			File.close(); break;
 		case 2:
 			File.open( "2.txt" );
 			while ( i != Number )
@@ -30,6 +31,7 @@ int main()
 				getline ( File, Word );
 				i++;
 			}
+			File.close(); break;
 		case 3:
 			File.open( "3.txt" );
 			while ( i != Number )
@@ -37,6 +39,7 @@ int main()
 				getline ( File, Word );
 				i++;
 			}
+			File.close(); break;
 		case 4:
 			File.open( "4.txt" );
 			while ( i != Number )
@@ -44,6 +47,7 @@ int main()
 				getline ( File, Word );
 				i++;
 			}
+			File.close(); break;
 		case 5:
 			File.open( "5.txt" );
 			while ( i != Number )
@@ -51,6 +55,7 @@ int main()
 				getline ( File, Word );
 				i++;
 			}
+			File.close(); break;
 		case 6:
 			File.open( "6.txt" );
 			while ( i != Number )
@@ -58,6 +63,7 @@ int main()
 				getline ( File, Word );
 				i++;
 			}
+			File.close(); break;
 	}
 	
 	return 0;	
