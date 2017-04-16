@@ -71,5 +71,4 @@ int main()
 	cin>>NumberOfTheme;
 	Word = ChoosingWord( NumberOfTheme );
 	cout<<Word;
-	return 0;
 }
