@@ -15,6 +15,9 @@ void setWord(char ch[]){
 	}
 }
 
+char * getWord(char ch){
+}
+
 void printMas(){
 	for(int i = 0; i<4; i++){
 		printf("%c",word1[i]);
