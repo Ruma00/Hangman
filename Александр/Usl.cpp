@@ -17,6 +17,8 @@ void setWord(char ch[]){
 
 char * getWord(char ch){
 	
+	x = 0;
+	
 	for(int i = 0; word1[i] != 0; i++){
 		
 		if(word1[i] == ch){
