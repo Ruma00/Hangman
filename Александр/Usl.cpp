@@ -48,4 +48,6 @@ main(){
 	char c[] = "1234";
 	setWord(c);	
 	printMas();
+	getWord('1');
+	printMas();
 }
