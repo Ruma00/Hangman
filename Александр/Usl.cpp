@@ -32,4 +32,5 @@ void printMas(){
 main(){
 	char c[] = "1234";
 	setWord(c);	
+	printMas();
 }
