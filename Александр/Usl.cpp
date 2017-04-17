@@ -16,6 +16,18 @@ void setWord(char ch[]){
 }
 
 char * getWord(char ch){
+	
+	for(int i = 0; word1[i] != 0; i++){
+		
+		if(word1[i] == ch){
+			word2[i] = ch;
+			x = 1;
+		}
+			
+	}
+	
+	return word2;
+	
 }
 
 void printMas(){
