@@ -50,6 +50,10 @@ main(){
 	char c[] = "1234";
 	setWord(c);	
 	printMas();
+	printf("%d\n",x);
 	getWord('1');
+	printf("%d\n",x);
+	getWord('5');
+	printf("%d\n",x);
 	printMas();
 }
