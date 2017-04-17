@@ -16,7 +16,17 @@ void setWord(char ch[]){
 }
 
 void printMas(){
+	for(int i = 0; i<4; i++){
+		printf("%c",word1[i]);
+	}
 	
+	printf("\n");
+	
+	printf("(");
+	for(int i = 0; i<4; i++){
+		printf("%c",word2[i]);
+	}
+	printf(")\n");
 }
 
 main(){
