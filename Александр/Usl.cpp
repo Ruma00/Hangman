@@ -15,6 +15,10 @@ void setWord(char ch[]){
 	}
 }
 
+void printMas(){
+	
+}
+
 main(){
 	char c[] = "1234";
 	setWord(c);	
