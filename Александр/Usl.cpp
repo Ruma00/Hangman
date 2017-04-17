@@ -14,3 +14,8 @@ void setWord(char ch[]){
 	//	printf("%c",word2[i]);
 	}
 }
+
+main(){
+	char c[] = "1234";
+	setWord(c);	
+}
