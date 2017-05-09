@@ -18,6 +18,68 @@ namespace Hangman_release
         }
 	}
 	
+	void SetButton(bool enabled)
+        {
+            for (int i = 2; i < 35; i++)
+            {
+                Controls["button" + i].Enabled = enabled;
+                Controls["button" + i].BackColor = DefaultBackColor;
+            }
+        }
+
+        void InitButton(bool value)
+        {
+            pictureBox1.Enabled = value;
+            button1.Enabled = !value;
+            comboBox1.Enabled = !value;
+            SetButton(value);
+        }
+
+        void CharLose(Control control)
+        {
+            control.BackColor = Color.Red;
+            count_i++;
+            pictureBox1.Image = Image.FromFile(path + count_i.ToString() + ".jpg");
+            if (count_i == 10)
+            {
+                pictureBox1.Image = Image.FromFile(path + "Lose.jpg");
+                InitButton(false);
+                for (int i = 0; i < count_c; i++)
+                    dataGridView1.Rows[0].Cells[i].Value = a.word1[i];
+            }
+        }
+
+        void CharWin(Control control)
+        {
+            control.BackColor = Color.Green;
+            char[] c = a.word2.ToCharArray();
+            for (int i = 0; i < count_c; i++)
+            {
+                dataGridView1.Rows[0].Cells[i].Value = c[i].ToString();
+            }
+
+            if (a.word2.IndexOf(' ') == -1)
+            {
+                pictureBox1.Image = Image.FromFile(path + "Win.jpg");
+                InitButton(false);
+            }
+        }
+
+        void Check(Control control, char let)
+        {
+            a.getWord(let);
+            if (a.rx())
+            {
+                CharWin(control);
+            }
+            else
+            {
+                CharLose(control);
+            }
+            control.Enabled = false;
+            dataGridView1.ClearSelection();
+        }
+	
 	private void button1_Click(object sender, EventArgs e)
         {
             count_i = 4;
