@@ -18,10 +18,23 @@ namespace Hangman_release
         }
 	}
 	
-	public void button1_click(object sender, EventArgs e)
-	{
-		
-	}
+	private void button1_Click(object sender, EventArgs e)
+        {
+            count_i = 4;
+            dataGridView1.Columns.Clear();
+            a.setWord(b.choosing_word(comboBox1.SelectedIndex + 1));
+            pictureBox1.Image = Image.FromFile(path + "4.jpg");
+            count_c = a.word1.Length;
+            dataGridView1.RowCount = 1;
+            char[] c = a.word2.ToCharArray();
+            for (int i = 0; i < count_c - 1; i++)
+            {
+                dataGridView1.Columns.Add(new DataGridViewTextBoxColumn());
+                dataGridView1.Rows[0].Cells[i].Value = c[i].ToString();
+            }
+            dataGridView1.ClearSelection();
+            InitButton(true);
+        }
 	
 	private void button2_Click(object sender, EventArgs e)
         {
