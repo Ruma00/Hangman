@@ -10,13 +10,20 @@ using System.Windows.Forms;
 
 namespace Hangman_release
 {
-    public partial class Form1 : Form
-    {
-        public Form1()
+    public Form1()
         {
             InitializeComponent();
+            dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.Single;
+            dataGridView1.ColumnHeadersVisible = false;
+            dataGridView1.RowHeadersVisible = false;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView1.AllowUserToResizeColumns = false;
+            dataGridView1.Font = new Font("Arial", 12);
+            dataGridView1.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            comboBox1.SelectedIndex = 0;
+            pictureBox1.Image = Image.FromFile(path + "Init.jpg");
+            InitButton(false);
         }
-	}
 	
 	void SetButton(bool enabled)
         {
