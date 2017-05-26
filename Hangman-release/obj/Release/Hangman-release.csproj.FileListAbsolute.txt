@@ -1,0 +1,13 @@
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\obj\Release\Hangman_release.Form1.resources
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\obj\Release\Hangman_release.Properties.Resources.resources
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\obj\Release\Hangman-release.csproj.GenerateResource.Cache
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\obj\Release\Hangman-release.csprojResolveAssemblyReference.cache
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\bin\Release\Hangman.exe.config
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\bin\Release\Hangman.exe.manifest
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\bin\Release\Hangman.application
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\bin\Release\Hangman.exe
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\bin\Release\Hangman.pdb
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\obj\Release\Hangman.exe.manifest
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\obj\Release\Hangman.application
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\obj\Release\Hangman.exe
+c:\users\egor\documents\visual studio 2017\Projects\Hangman-release\Hangman-release\obj\Release\Hangman.pdb
