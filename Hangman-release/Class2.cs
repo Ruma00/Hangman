@@ -16,7 +16,7 @@ namespace Hangman_release
             Random rand = new Random();
             StreamReader reader = new StreamReader(path, Encoding.GetEncoding(1251));
 
-            int i = rand.Next(1, 10), a = 0;
+            int i = rand.Next(1, 30), a = 0;
             while (a < i)
             {
                 word = reader.ReadLine();
