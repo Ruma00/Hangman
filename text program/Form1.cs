@@ -244,7 +244,7 @@ namespace Hangman_release
 
         private void button27_Click(object sender, EventArgs e)
         {
-            Check(button26, 'ш');
+            Check(button27, 'ш');
         }
 
         private void button28_Click(object sender, EventArgs e)
