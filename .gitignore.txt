@@ -1,4 +1,0 @@
-**Hangman-release/Hangman-release.csproj.user
-**Hangman-release/Hangman-release_TemporaryKey
-Hangman-release/bin
-Hangman-release/obj
