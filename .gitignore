@@ -1,3 +1,7 @@
 Hangman-release/bin/ 
 Hangman-release/obj/ 
 Hangman-release.csproj.user 
+UnitTests/bin/
+UnitTests/obj/
+packages/
+TestResults/
