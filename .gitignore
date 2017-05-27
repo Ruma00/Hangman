@@ -5,3 +5,4 @@ UnitTests/bin/
 UnitTests/obj/
 packages/
 TestResults/
+.vs/
